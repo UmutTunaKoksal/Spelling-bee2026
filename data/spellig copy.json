@@ -1,0 +1,1666 @@
+[
+  {
+    "number": 1,
+    "word": "luscious",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˈləsh-əs, -ˌlō-shəs\\",
+    "definition": "extremely pleasing to the senses",
+    "sentence": "The banana split is making me hungry because it looks so luscious in the advertisement."
+  },
+  {
+    "number": 2,
+    "word": "olden",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˈōl-dən\\",
+    "definition": "relating to a previous time period",
+    "sentence": "My grandfather likes to speak of the olden times, where everything apparently only cost five cents."
+  },
+  {
+    "number": 3,
+    "word": "easel",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈē-zəl\\",
+    "definition": "a stand to display artwork",
+    "sentence": "At the art center, the easel was placed in the center of the rug so any kindergartener could paint on the tablet."
+  },
+  {
+    "number": 4,
+    "word": "cumulus",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈkyü-myə-ləs\\",
+    "definition": "white puffy clouds",
+    "sentence": "The puffy cumulus cloud looked like a very soft pillow in the sky."
+  },
+  {
+    "number": 5,
+    "word": "monastery",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈmä-nə-ˌster-ē\\",
+    "definition": "a building for religious people",
+    "sentence": "The monks resided peacefully within the ancient monastery, dedicated to prayer and reflection."
+  },
+  {
+    "number": 6,
+    "word": "sternum",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈstər-nəm\\",
+    "definition": "a chest bone connected to the rib cage",
+    "sentence": "Since Andy wasn’t wearing a seatbelt during the car accident, his sternum was fractured from being thrown against the steering wheel."
+  },
+  {
+    "number": 7,
+    "word": "bobcat",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈbäb-ˌkat\\",
+    "definition": "a North American wild cat with reddish fur",
+    "sentence": "The bobcat, a reddish feline, stalked silently through the tall grass."
+  },
+  {
+    "number": 8,
+    "word": "solidify",
+    "part_of_speech": "verb",
+    "pronunciation": "\\sə-ˈlid-ə-ˌfī, sə-ˈli-də-ˌfī\\",
+    "definition": "to strengthen or make something more stable",
+    "sentence": "Worried that her partner was getting ready to start his own firm, the attorney looked for a way to solidify their relationship."
+  },
+  {
+    "number": 9,
+    "word": "haptic",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˈhap-tik\\",
+    "definition": "relating to feeling with the skin",
+    "sentence": "Haptic feedback caused the controller to shake when the control buttons were touched by the user."
+  },
+  {
+    "number": 10,
+    "word": "immigration",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˌi-mə-ˈgrā-shən\\",
+    "definition": "moving to a country to live there",
+    "sentence": "Immigration has played a crucial role in Canada's history."
+  },
+  {
+    "number": 11,
+    "word": "balsam",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈbȯl-səm\\",
+    "definition": "a fragrant liquid secreted from a plant",
+    "sentence": "This balsam gives the tree a fragrant odour when the leaves are unfolding."
+  },
+  {
+    "number": 12,
+    "word": "gentleman",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈjen-təl-mən\\",
+    "definition": "a man of high social status",
+    "sentence": "The distinguished gentleman always offered a polite word and a helping hand."
+  },
+  {
+    "number": 13,
+    "word": "runt",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈrənt\\",
+    "definition": "the smallest animal born in a group",
+    "sentence": "The runt was the smallest, weakest, and cutest of the entire poodle puppy litter."
+  },
+  {
+    "number": 14,
+    "word": "telegraph",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈte-lə-ˌgraf\\",
+    "definition": "an apparatus for distant communication using signals",
+    "sentence": "The telegraph allowed instant messages to travel across vast distances."
+  },
+  {
+    "number": 15,
+    "word": "recover",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ri-ˈkə-vər\\",
+    "definition": "to return to a former state of well-being",
+    "sentence": "After the illness, she slowly began to recover and regain her strength."
+  },
+  {
+    "number": 16,
+    "word": "muesli",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈmyüs-lē\\",
+    "definition": "a Swiss breakfast cereal of oats, nuts and fruit",
+    "sentence": "For a healthy start to the day, she enjoyed a bowl of delicious muesli."
+  },
+  {
+    "number": 17,
+    "word": "bloke",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈblōk\\",
+    "definition": "a British term for a male person",
+    "sentence": "Unfortunately for the police, the victim couldn’t identify the bloke that had robbed him that day."
+  },
+  {
+    "number": 18,
+    "word": "lagan",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈla-gən\\",
+    "definition": "goods floated at sea to be retrieved",
+    "sentence": "The fishermen used a lagan to carefully return the lost fishing nets to shore."
+  },
+  {
+    "number": 19,
+    "word": "gurney",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈgər-nē\\",
+    "definition": "a wheeled bed for moving patients",
+    "sentence": "The paramedics carefully wheeled the patient onto the gurney for transport to the hospital."
+  },
+  {
+    "number": 20,
+    "word": "limn",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˈlim\\",
+    "definition": "to depict something through art or writing",
+    "sentence": "The painter is known to limn pictures of his lovers on oil canvases."
+  },
+  {
+    "number": 21,
+    "word": "kith",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈkith\\",
+    "definition": "people one knows socially",
+    "sentence": "Although they were not related, his kith were just as close to him as many of his family members."
+  },
+  {
+    "number": 22,
+    "word": "coddle",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˈkä-dəl\\",
+    "definition": "to treat someone with kindness and care",
+    "sentence": "Not wanting to coddle him, the dog owner did not allow his new puppy on the furniture."
+  },
+  {
+    "number": 23,
+    "word": "prominent",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˈprä-mə-nənt\\",
+    "definition": "important and widely recognized",
+    "sentence": "At the airport, Siobhan was surprised to see a prominent actor."
+  },
+  {
+    "number": 24,
+    "word": "proton",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈprō-ˌtän\\",
+    "definition": "a positively charged particle in an atom’s nucleus",
+    "sentence": "A hydrogen atom consists of just one small positively charged proton."
+  },
+  {
+    "number": 25,
+    "word": "adoptive",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ə-ˈdäp-tiv\\",
+    "definition": "related to becoming a legal parent or child",
+    "sentence": "Although he loved his adoptive family, the young boy yearned to meet the biological mother that had given him life."
+  },
+  {
+    "number": 26,
+    "word": "valise",
+    "part_of_speech": "noun",
+    "pronunciation": "\\və-ˈlēs\\",
+    "definition": "a container for carrying belongings",
+    "sentence": "She dressed in her warmest clothes and grabbed her valise."
+  },
+  {
+    "number": 27,
+    "word": "octave",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈäk-tiv\\",
+    "definition": "the interval spanning eight musical notes",
+    "sentence": "Because the soprano’s voice is higher-pitched than her sister’s, she can reach an octave that the alto cannot."
+  },
+  {
+    "number": 28,
+    "word": "alliance",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ə-ˈlī-ən(t)s\\",
+    "definition": "a formal agreement between groups",
+    "sentence": "My friends and I formed an alliance in order to win the game of manhunt."
+  },
+  {
+    "number": 29,
+    "word": "maven",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈmā-vən\\",
+    "definition": "a person possessing extensive knowledge",
+    "sentence": "The history professor was clearly a maven."
+  },
+  {
+    "number": 30,
+    "word": "polymer",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈpä-lə-mər, pä-lō-mər\\",
+    "definition": "a substance made of linked small molecules",
+    "sentence": "The scientist will combine molecules to create a synthetic polymer."
+  },
+
+  {
+    "number": 31,
+    "word": "tenet",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈte-nət\\",
+    "definition": "a firmly held principle or conviction",
+    "sentence": "Many people believe the tenet that parents should be responsible for the behaviors of their children."
+  },
+
+  {
+    "number": 32,
+    "word": "visa",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈvē-zə\\",
+    "definition": "an official permit allowing international travel",
+    "sentence": "The tourist needed a visa to enter the country and continue their journey."
+  },
+
+  {
+    "number": 33,
+    "word": "apathetic",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˌa-pə-ˈthe-tik\\",
+    "definition": "showing little emotion or interest",
+    "sentence": "It’s easy to feel apathetic about politics and forget how much they affect our daily lives."
+  },
+
+  {
+    "number": 34,
+    "word": "maintenance",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈmānt-nən(t)s\\",
+    "definition": "keeping property or equipment in good condition",
+    "sentence": "School custodians are responsible for the maintenance of the building."
+  },
+
+  {
+    "number": 35,
+    "word": "gamp",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈgamp\\",
+    "definition": "a substantial shield or covering",
+    "sentence": "The baby snuggled happily inside his cozy, quilted gamp."
+  },
+
+  {
+    "number": 36,
+    "word": "malleable",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˈma-lē-ə-bəl\\",
+    "definition": "easily shaped or formed into different shapes",
+    "sentence": "Once melted, chocolate becomes malleable."
+  },
+
+  {
+    "number": 37,
+    "word": "excitable",
+    "part_of_s_speech": "adjective",
+    "pronunciation": "\\ik-ˈsī-tə-bəl\\",
+    "definition": "easily agitated and prone to strong feelings",
+    "sentence": "Full of nervous energy, the excitable and high-strung actor practiced his lines before curtain call."
+  },
+
+  {
+    "number": 38,
+    "word": "weevil",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈwē-vəl\\",
+    "definition": "beetles with snouts that damage nuts, fruits, and grain",
+    "sentence": "The weevil was persistent in chewing, which caused significant damage to the orchard’s stored grain."
+  },
+
+  {
+    "number": 39,
+    "word": "mange",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈmānj\\",
+    "definition": "a contagious skin disease causing hair loss",
+    "sentence": "The veterinarian diagnosed the dog with mange, a persistent skin disease."
+  },
+
+  {
+    "number": 40,
+    "word": "refurbish",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ri-ˈfər-bish\\",
+    "definition": "to restore something to good working order",
+    "sentence": "As an artist, I am always searching flea markets for junk that I can refurbish."
+  },
+
+  {
+    "number": 41,
+    "word": "pippin",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈpi-pən\\",
+    "definition": "a small apple cultivar",
+    "sentence": "Mom’s fruit salad had fresh bananas, pippin apples, grapes, and peaches."
+  },
+
+  {
+    "number": 42,
+    "word": "yammer",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˈyam-ər\\",
+    "definition": "to make a loud and repeated sound",
+    "sentence": "The mouthy woman decided to yammer on and on, telling everyone she met about her relationship problems."
+  },
+
+  {
+    "number": 43,
+    "word": "crochet",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˈkrō-ˌshā\\",
+    "definition": "a yarn craft using interlocking loops",
+    "sentence": "So the children would stay warm in the winter, the pioneer women crocheted scarves with yarn and a needle."
+  },
+
+  {
+    "number": 44,
+    "word": "biohazard",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈbī-ō-ˌha-zərd\\",
+    "definition": "harmful to a person's health",
+    "sentence": "Biohazard procedures were put into place so that those dealing with blood-soaked items wouldn't become ill from the virus."
+  },
+
+  {
+    "number": 45,
+    "word": "embarrass",
+    "part_of_speech": "verb",
+    "pronunciation": "\\im-ˈber-əs\\",
+    "definition": "to cause someone to feel ashamed or uncomfortable",
+    "sentence": "Unexpected laughter will always embarrass the speaker."
+  },
+
+  {
+    "number": 46,
+    "word": "phonics",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈfä-niks\\",
+    "definition": "teaching reading by focusing on letter sounds",
+    "sentence": "The origin of the word “phonics” can be traced to a Greek term that means sound."
+  },
+
+  {
+    "number": 47,
+    "word": "genial",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˈjē-nē-əl\\",
+    "definition": "friendly and pleasantly welcoming",
+    "sentence": "The genial hosts made sure everyone enjoyed the party."
+  },
+
+  {
+    "number": 48,
+    "word": "macroclimate",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈmakrōˌklī-mət\\",
+    "definition": "the prevailing weather pattern of a large region",
+    "sentence": "Meteorologists study the macroclimate of regions to see how they are changing."
+  },
+
+  {
+    "number": 49,
+    "word": "derail",
+    "part_of_speech": "verb",
+    "pronunciation": "\\di-ˈrāl\\",
+    "definition": "to leave the intended course",
+    "sentence": "Little Bobby asked, “Will a train derail if I put a penny on the tracks?”"
+  },
+
+  {
+    "number": 50,
+    "word": "crocus",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈkrō-kəs\\",
+    "definition": "herbs of the iris family growing from underground stems and bearing flowers",
+    "sentence": "The vibrant purple crocus bravely pushed through the melting snow."
+  },
+
+  {
+    "number": 51,
+    "word": "cylinder",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈsil-ən-dər\\",
+    "definition": "a surface formed by a line moving steadily",
+    "sentence": "The log roller formed a perfect cylinder as it was tightly wrapped."
+  },
+
+  {
+    "number": 52,
+    "word": "appease",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ə-ˈpēz\\",
+    "definition": "to calm anger by fulfilling a request",
+    "sentence": "He tried to appease the crying child by giving him candy."
+  },
+
+  {
+    "number": 53,
+    "word": "babble",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˈba-bəl\\",
+    "definition": "to speak without clear meaning",
+    "sentence": "He will babble all night about cars if you let him."
+  },
+
+  {
+    "number": 54,
+    "word": "trestle",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈtre-səl\\",
+    "definition": "a supporting structure with a beam and sloping legs",
+    "sentence": "The trestle under the bridge looks like an X, with two beams spreading out from the horizontal beam on top."
+  },
+
+  {
+    "number": 55,
+    "word": "lorn",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˈlȯrn\\",
+    "definition": "feeling empty and abandoned",
+    "sentence": "Once all her children left for college, the divorced mother felt lorn living in a big empty house."
+  },
+
+  {
+    "number": 56,
+    "word": "berm",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈbərm\\",
+    "definition": "a projecting ledge along an incline",
+    "sentence": "The hikers paused on the berm to admire the expansive valley below."
+  },
+
+  {
+    "number": 57,
+    "word": "chroma",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈkrō-mə\\",
+    "definition": "a color’s hue and saturation combined",
+    "sentence": "High chroma, the intensity of a color, will put more punch in reds and light blues for sports cars."
+  },
+
+  {
+    "number": 58,
+    "word": "biped",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈbī-ˌped\\",
+    "definition": "an animal that moves using its lower limbs",
+    "sentence": "The audience enjoys watching the lion stand like a biped using its two rearmost feet."
+  },
+
+  {
+    "number": 59,
+    "word": "pester",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˈpes-tər\\",
+    "definition": "to annoy someone with repeated requests",
+    "sentence": "The teacher created detailed lesson plans so that her students wouldn't pester her with repeated questions."
+  },
+
+  {
+    "number": 60,
+    "word": "truce",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈtrüs\\",
+    "definition": "a pause in fighting by agreement",
+    "sentence": "The temporary truce between the warring factions brought a brief period of peace."
+  },
+
+  {
+    "number": 61,
+    "word": "townsman",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈtau̇nz-mən\\",
+    "definition": "a person residing in an inhabited place",
+    "sentence": "The townsman waved to me as I walked into the bustling marketplace."
+  },
+
+  {
+    "number": 62,
+    "word": "shirk",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˈshərk\\",
+    "definition": "to avoid fulfilling obligations",
+    "sentence": "Because all the soldiers are dedicated to their country, none of them will shirk their assignments."
+  },
+
+  {
+    "number": 63,
+    "word": "acrid",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˈa-krəd\\",
+    "definition": "unpleasant and sharp in taste or smell",
+    "sentence": "Because I am bothered by the acrid odor of burning cigarettes, I do not allow people to smoke inside my home."
+  },
+
+  {
+    "number": 64,
+    "word": "intermediate",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˌin-tər-ˈmē-dē-ət\\",
+    "definition": "occurring in a middle position or stage",
+    "sentence": "Their dog was at an intermediate stage of training."
+  },
+
+  {
+    "number": 65,
+    "word": "thermos",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈthər-məs\\",
+    "definition": "a container that insulates liquids",
+    "sentence": "The camp counselor made sure that each camper had an insulated thermos to store cool water."
+  },
+
+  {
+    "number": 66,
+    "word": "concentrate",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˈkän(t)-sən-ˌtrāt\\",
+    "definition": "to direct effort toward a specific goal",
+    "sentence": "The class was required to concentrate their attention on the guest speaker."
+  },
+
+  {
+    "number": 67,
+    "word": "glair",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈgler\\",
+    "definition": "a liquid made from egg white",
+    "sentence": "The painter used glair to add a luminous sheen to the portrait’s background."
+  },
+
+  {
+    "number": 68,
+    "word": "hoarder",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈhȯr-dər\\",
+    "definition": "someone who keeps unnecessary possessions",
+    "sentence": "I realized Eudy was a hoarder when I entered her house and saw that she had not gotten rid of a single item she owned in the last ten years."
+  },
+
+  {
+    "number": 69,
+    "word": "dictum",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈdik-təm\\",
+    "definition": "a significant statement expressing an important idea",
+    "sentence": "Because Jason could not follow the safety dictum, he was suspended from the football team."
+  },
+
+  {
+    "number": 70,
+    "word": "jefe",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈhe-ˌfā\\",
+    "definition": "someone who directs or manages others",
+    "sentence": "In the House and Senate, Republicans are limited to six years as the jefe of any committee."
+  },
+
+  {
+    "number": 71,
+    "word": "vie",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˈvī\\",
+    "definition": "to participate in a contest",
+    "sentence": "This year eight candidates will vie for their political party’s endorsement."
+  },
+
+  {
+    "number": 72,
+    "word": "pentagon",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈpen-tə-ˌgän\\",
+    "definition": "a closed shape with five straight sides",
+    "sentence": "The pentagon I drew is perfectly straight, and it has five angles and five sides."
+  },
+
+  {
+    "number": 73,
+    "word": "appear",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ə-ˈpir\\",
+    "definition": "to come into existence",
+    "sentence": "Mr. Jones was frustrated as new problems seemed to appear in his life more frequently."
+  },
+
+  {
+    "number": 74,
+    "word": "agonize",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˈa-gə-ˌnīz\\",
+    "definition": "to suffer significant emotional distress",
+    "sentence": "After resigning from my job, I started to agonize over my decision."
+  },
+
+  {
+    "number": 75,
+    "word": "garvey",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈgär-vē\\",
+    "definition": "a small boat common along the New Jersey coast",
+    "sentence": "The weathered garvey bobbed gently on the calm, grey waters of the bay."
+  },
+
+  {
+    "number": 76,
+    "word": "conversation",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˌkän-vər-ˈsā-shən\\",
+    "definition": "an exchange of thoughts and feelings",
+    "sentence": "Do you remember our conversation about that new movie?"
+  },
+
+  {
+    "number": 77,
+    "word": "astrology",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ə-ˈsträ-lə-jē\\",
+    "definition": "the study of celestial bodies and their influence",
+    "sentence": "My friend was interested in astrology and always asked people what their sign was."
+  },
+
+  {
+    "number": 78,
+    "word": "roughrider",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈrəf-ˌrī-dər\\",
+    "definition": "one skilled at riding untrained horses",
+    "sentence": "In his spare time, the roughrider went to the rodeo to see if he had improved at not getting bucked off."
+  },
+
+  {
+    "number": 79,
+    "word": "prefect",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈprē-ˌfekt\\",
+    "definition": "an elected official maintaining order and discipline",
+    "sentence": "The American version of a prefect is a resident assistant who helps maintain order in the dormitory."
+  },
+
+  {
+    "number": 80,
+    "word": "nylon",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈnī-ˌlän\\",
+    "definition": "a strong elastic synthetic material used in textiles",
+    "sentence": "The jacket was made of nylon, offering a comfortable and durable fit."
+  },
+
+  {
+    "number": 81,
+    "word": "babka",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈbäb-kə\\",
+    "definition": "a sweet leavened bread made with butter",
+    "sentence": "The rich, cinnamon-filled babka was a delightful treat for the holiday."
+  },
+
+  {
+    "number": 82,
+    "word": "garlicky",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˈgär-lə-kē\\",
+    "definition": "having a strong odor from an allium vegetable",
+    "sentence": "The vampire was deterred by the garlicky herbal garden."
+  },
+
+  {
+    "number": 83,
+    "word": "tabulate",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˈtab-yə-ˌlāt\\",
+    "definition": "to organize information into a structured chart",
+    "sentence": "Election workers will tabulate the voting results in an organized chart."
+  },
+
+  {
+    "number": 84,
+    "word": "chant",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˈchant\\",
+    "definition": "to make musical sounds using the voice",
+    "sentence": "The choir members beautifully chanted the ancient hymn during the service."
+  },
+
+  {
+    "number": 85,
+    "word": "independent",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˌin-də-ˈpen-dənt\\",
+    "definition": "not controlled by outside authority",
+    "sentence": "The country recently became independent with the help of many treaties."
+  },
+
+  {
+    "number": 86,
+    "word": "lute",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈlüt\\",
+    "definition": "a stringed instrument with a rounded body and fingerboard",
+    "sentence": "The medieval troubadour played a beautiful song on his lute."
+  },
+
+  {
+    "number": 87,
+    "word": "scavenger",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈska-vən-jər\\",
+    "definition": "someone who searches discarded items for use",
+    "sentence": "I consider myself a bargain scavenger because I am constantly on the lookout for deals."
+  },
+
+  {
+    "number": 88,
+    "word": "limma",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈli-mə\\",
+    "definition": "a musical interval smaller than a minor third",
+    "sentence": "The musician carefully adjusted the limma to achieve the desired harmonic effect."
+  },
+
+  {
+    "number": 89,
+    "word": "trace",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈtrās\\",
+    "definition": "a slight indication or minimal quantity",
+    "sentence": "A faint scent was the only trace of the cookies that had vanished."
+  },
+
+  {
+    "number": 90,
+    "word": "condominium",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˌkän-də-ˈmi-nē-əm\\",
+    "definition": "a housing unit with individual ownership",
+    "sentence": "The management company alerted the owners that painting would begin for the entire condominium complex."
+  },
+
+  {
+    "number": 91,
+    "word": "optimist",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈäp-tə-mist, ˈäp-tə-məst\\",
+    "definition": "someone who consistently sees the good",
+    "sentence": "Because Jane is an optimist, she is certain all people are good at heart."
+  },
+  {
+    "number": 92,
+    "word": "rabbet",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈra-bət\\",
+    "definition": "a groove carved into a surface",
+    "sentence": "The rabbet along the edge of the board provided a secure place to glue the trim."
+  },
+  {
+    "number": 93,
+    "word": "communal",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\kə-ˈmyü-nəl\\",
+    "definition": "shared by or accessible to a group",
+    "sentence": "There is a communal shed in town that is open to all members of the community."
+  },
+  {
+    "number": 94,
+    "word": "gauze",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈgȯz\\",
+    "definition": "a thin transparent fabric for clothing and medical use",
+    "sentence": "With no bandage available, the hiker had to use some old gauze from a first-aid kit to cover his wound."
+  },
+  {
+    "number": 95,
+    "word": "antique",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\an-ˈtēk\\",
+    "definition": "belonging to a past time or style",
+    "sentence": "The antique chair was designed and constructed in the 1950s."
+  },
+  {
+    "number": 96,
+    "word": "dreamer",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈdrē-mər\\",
+    "definition": "one having prophetic or imaginative visions",
+    "sentence": "The young dreamer often spent hours lost in fantastical visions."
+  },
+  {
+    "number": 97,
+    "word": "sepia",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈsē-pē-ə\\",
+    "definition": "a brown-toned photograph or print",
+    "sentence": "The walls were hung with sepia photographs of old school heroes."
+  },
+  {
+    "number": 98,
+    "word": "quash",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˈkwäsh\\",
+    "definition": "to stop or terminate something",
+    "sentence": "Scientists were able to quickly quash the outbreak with a new immunization."
+  },
+  {
+    "number": 99,
+    "word": "saliva",
+    "part_of_speech": "noun",
+    "pronunciation": "\\sə-ˈlī-və\\",
+    "definition": "moist fluid secreted by mouth glands",
+    "sentence": "While being in a deep sleep, saliva dribbled from Kenneth’s mouth onto his pillow."
+  },
+  {
+    "number": 100,
+    "word": "transparent",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\tran(t)-ˈsper-ənt\\",
+    "definition": "allowing light to pass through clearly",
+    "sentence": "The glass of the window was perfectly transparent."
+  },
+  {
+    "number": 101,
+    "word": "adolescence",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˌa-də-ˈle-sən(t)s\\",
+    "definition": "the stage of development from childhood to adulthood",
+    "sentence": "Many changes happen during adolescence for everyone."
+  },
+  {
+    "number": 102,
+    "word": "arbor",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈär-bər\\",
+    "definition": "a shaded structure made of plants",
+    "sentence": "The beautiful arbor provided a shaded spot for a quiet afternoon reading."
+  },
+  {
+    "number": 103,
+    "word": "parch",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˈpärch\\",
+    "definition": "to become dry from exposure to heat",
+    "sentence": "Hours after my last drink of water, my throat began to parch."
+  },
+  {
+    "number": 104,
+    "word": "overcome",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˌō-vər-ˈkəm\\",
+    "definition": "to succeed in dealing with a problem",
+    "sentence": "He chose to overcome his fears and picked up the spider with his bare hands."
+  },
+  {
+    "number": 105,
+    "word": "gasoline",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈga-sə-ˌlēn\\",
+    "definition": "a flammable liquid fuel derived from hydrocarbons",
+    "sentence": "The car needed a full tank of gasoline to make the long journey."
+  },
+  {
+    "number": 106,
+    "word": "elan",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ā-ˈläⁿ\\",
+    "definition": "energetic and spirited excitement",
+    "sentence": "Displaying energetic elan, the dancer’s enthusiasm wowed the crowd."
+  },
+  {
+    "number": 107,
+    "word": "eclair",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ā-ˈkler\\",
+    "definition": "an oblong pastry filled with cream or custard",
+    "sentence": "Dessert was a choice of an eclair or chocolate mousse."
+  },
+  {
+    "number": 108,
+    "word": "tonal",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˈtō-nəl\\",
+    "definition": "relating to musical pitch and harmony",
+    "sentence": "The musician carefully adjusted the tonal balance of the orchestra’s performance."
+  },
+  {
+    "number": 109,
+    "word": "liberate",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˈli-bə-ˌrāt\\",
+    "definition": "to free someone from restrictions",
+    "sentence": "The storm decided to liberate the birds when it passed overhead."
+  },
+  {
+    "number": 110,
+    "word": "coordinate",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\kō-ˈȯrd-nət\\",
+    "definition": "having the same level or importance",
+    "sentence": "His paragraphs were filled with coordinate clauses."
+  },
+  {
+    "number": 111,
+    "word": "terai",
+    "part_of_speech": "noun",
+    "pronunciation": "\\tə-ˈrī\\",
+    "definition": "a wide-brimmed hat for sun protection",
+    "sentence": "The stylish terai provided excellent shade during our trip to Florida."
+  },
+  {
+    "number": 112,
+    "word": "agriculture",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈa-gri-ˌkəl-chər\\",
+    "definition": "the science of cultivating plants and livestock",
+    "sentence": "They cleared the land to use it for agriculture."
+  },
+  {
+    "number": 113,
+    "word": "indigo",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈin-di-ˌgō\\",
+    "definition": "a deep blue color",
+    "sentence": "Using the plant dye to color her clothing indigo, the young woman admired her dark blue garment."
+  },
+  {
+    "number": 114,
+    "word": "abet",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ə-ˈbet\\",
+    "definition": "to assist or enable an action",
+    "sentence": "The photo editing software was used to abet his entry into the competition."
+  },
+  {
+    "number": 115,
+    "word": "uniform",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˈyü-nə-ˌfȯrm\\",
+    "definition": "always having the same characteristics or qualities",
+    "sentence": "The soldiers wore a uniform appearance, reflecting their disciplined training."
+  },
+  {
+    "number": 116,
+    "word": "cranberry",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈkran-ˌber-ē\\",
+    "definition": "a tart red berry from specific plants",
+    "sentence": "The tart cranberry sauce was a festive addition to our Thanksgiving dinner."
+  },
+  {
+    "number": 117,
+    "word": "tannery",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈta-nə-rē\\",
+    "definition": "a place processing animal skins into leather",
+    "sentence": "Work in the tannery required removing dirt and hair from hides before making leather."
+  },
+  {
+    "number": 118,
+    "word": "boodle",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈbü-dəl\\",
+    "definition": "a group or gathering of people",
+    "sentence": "Benjamin was not surprised to see a boodle at the event after so many years of attending."
+  },
+  {
+    "number": 119,
+    "word": "phiale",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈfī-ə-lē\\",
+    "definition": "a shallow bowl used for liquid offerings",
+    "sentence": "The ancient Greeks used a phiale to offer libations to their gods."
+  },
+  {
+    "number": 120,
+    "word": "achkan",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈäch-kən\\",
+    "definition": "a men's coat of three-quarter length",
+    "sentence": "The richly embroidered achkan was a traditional garment worn for special occasions."
+  },
+  {
+    "number": 121,
+    "word": "adjustment",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ə-ˈjəs(t)-mənt\\",
+    "definition": "a change to align with reality",
+    "sentence": "The teacher had to make an adjustment to match the students' needs."
+  },
+  {
+    "number": 122,
+    "word": "algorithm",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈal-gə-ˌri-thəm\\",
+    "definition": "a sequence of steps to solve a problem",
+    "sentence": "Many scientists were required to solve and describe the algorithm for each problem."
+  },
+  {
+    "number": 123,
+    "word": "dynamo",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈdī-nə-ˌmō\\",
+    "definition": "a lively and vigorous person",
+    "sentence": "Energetically whipping up several extravagant dishes, the dynamo outshined the other chefs during the competition."
+  },
+  {
+    "number": 124,
+    "word": "biotic",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\bī-ˈä-tik\\",
+    "definition": "relating to or originating from living organisms",
+    "sentence": "Since humans exist within a biological system, humans are a biotic factor."
+  },
+  {
+    "number": 125,
+    "word": "abate",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ə-ˈbāt\\",
+    "definition": "to decrease in strength or amount",
+    "sentence": "The firefighters sprayed water on the burning house to abate the structural damage."
+  },
+  {
+    "number": 126,
+    "word": "descriptor",
+    "part_of_speech": "noun",
+    "pronunciation": "\\di-ˈskrip-tər\\",
+    "definition": "a word that explains or characterizes something",
+    "sentence": "The most common descriptor used to refer to an orange is simply 'orange'."
+  },
+  {
+    "number": 127,
+    "word": "absorbent",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\əb-ˈsȯr-bənt\\",
+    "definition": "able to soak up liquids",
+    "sentence": "Chalk can soothe an upset stomach because it acts as an absorbent of painful acid."
+  },
+  {
+    "number": 128,
+    "word": "stammer",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˈsta-mər\\",
+    "definition": "to have difficulty speaking fluently",
+    "sentence": "\"Speak slowly and do not stammer,\" the speech expert instructed the students."
+  },
+  {
+    "number": 129,
+    "word": "stressor",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈstre-sər\\",
+    "definition": "something causing anxiety or emotional distress",
+    "sentence": "The teacher’s tears at the end of the day were caused by the main stressor: unruly students."
+  },
+  {
+    "number": 130,
+    "word": "emanate",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˈe-mə-ˌnāt\\",
+    "definition": "to originate from a source",
+    "sentence": "If noises emanate from the empty hotel rooms, guests will be less likely to continue staying."
+  },
+  {
+    "number": 131,
+    "word": "dissect",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˈdi-ˌsekt\\",
+    "definition": "to cut open for examination",
+    "sentence": "The botanist used a knife to dissect and study part of the withering plant."
+  },
+  {
+    "number": 132,
+    "word": "apparel",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ə-ˈper-əl\\",
+    "definition": "clothing of a specific style",
+    "sentence": "The store sells a full range of sports apparel."
+  },
+  {
+    "number": 133,
+    "word": "tart",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˈtärt\\",
+    "definition": "agreeably sharp or acidic in flavor",
+    "sentence": "The lemon pie was delightfully tart, offering a refreshing burst of flavor."
+  },
+  {
+    "number": 134,
+    "word": "clod",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈkläd\\",
+    "definition": "a mass of earth or clay",
+    "sentence": "A clod of clay spun on the pottery wheel as the sculptor molded it into a vase."
+  },
+  {
+    "number": 135,
+    "word": "coupe",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈküp\\",
+    "definition": "a car with a fixed roof and two doors",
+    "sentence": "Many people prefer the sporty aesthetic of a coupe due to its sleek design."
+  },
+  {
+    "number": 136,
+    "word": "submerge",
+    "part_of_speech": "verb",
+    "pronunciation": "\\səb-ˈmərj\\",
+    "definition": "to sink completely from view",
+    "sentence": "Harry knew the boat was about to capsize and submerge beneath the water."
+  },
+  {
+    "number": 137,
+    "word": "hippie",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈhi-pē\\",
+    "definition": "a young person rejecting norms and favoring peaceful living",
+    "sentence": "The young activist was a dedicated hippie, protesting for peace and understanding."
+  },
+  {
+    "number": 138,
+    "word": "inborn",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˈin-ˌbȯrn\\",
+    "definition": "existing from birth or a natural characteristic",
+    "sentence": "People said the future president had inborn leadership qualities that made him stand out."
+  },
+  {
+    "number": 139,
+    "word": "glossary",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈglä-sə-rē\\",
+    "definition": "a list explaining difficult or uncommon words",
+    "sentence": "Adding a glossary to the textbook helps students better understand vocabulary terms."
+  },
+  {
+    "number": 140,
+    "word": "bedridden",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˈbed-ˌri-dən\\",
+    "definition": "unable to leave bed due to illness or age",
+    "sentence": "After the fall that broke his hip, Charlie’s grandfather became bedridden."
+  },
+  {
+    "number": 141,
+    "word": "atmosphere",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈat-mə-ˌsfir\\",
+    "definition": "a layer of gas surrounding a planet",
+    "sentence": "Climate scientists have noticed concerning changes in our atmosphere."
+  },
+  {
+    "number": 142,
+    "word": "circulate",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˈsər-kyə-ˌlāt\\",
+    "definition": "to move along a continuous path",
+    "sentence": "Rumors began to circulate throughout the entire office."
+  },
+  {
+    "number": 143,
+    "word": "imitation",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˌi-mə-ˈtā-shən\\",
+    "definition": "a reproduction of someone’s actions or behavior",
+    "sentence": "His attempt to play the guitar was a clumsy imitation of his hero."
+  },
+  {
+    "number": 144,
+    "word": "minister",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈmi-nə-stər\\",
+    "definition": "a person holding government office",
+    "sentence": "The foreign minister represented his country’s interests with diplomacy and grace."
+  },
+
+  {
+    "number": 145,
+    "word": "legible",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˈle-jə-bəl, ˈlej-ə-bəl\\",
+    "definition": "writing that is easily understood",
+    "sentence": "Even though Chris had a broken wrist, he was still able to sign his name in a legible manner."
+  },
+  {
+    "number": 146,
+    "word": "arsenal",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈärs-nəl, ˈär-sə-, -ən-əl\\",
+    "definition": "a place making military weapons",
+    "sentence": "The military’s arsenal contained a vast collection of sophisticated weaponry."
+  },
+  {
+    "number": 147,
+    "word": "purist",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈpyu̇r-ist\\",
+    "definition": "someone who strictly follows all rules",
+    "sentence": "Having a purist at the game table meant that nobody could cheat or change the game in any way."
+  },
+  {
+    "number": 148,
+    "word": "supermarket",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈsü-pər-ˌmär-kət\\",
+    "definition": "a retail store selling food and household goods",
+    "sentence": "She stopped by the supermarket to pick up some snacks."
+  },
+  {
+    "number": 149,
+    "word": "stupa",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈstü-pə\\",
+    "definition": "a Buddhist structure with a rounded roof",
+    "sentence": "Entering the famous stupa created a sense of emotion in the Buddhist man, as he was so religious."
+  },
+  {
+    "number": 150,
+    "word": "gymnasium",
+    "part_of_speech": "noun",
+    "pronunciation": "\\jim-ˈnā-zē-əm\\",
+    "definition": "a space for sports and exercise",
+    "sentence": "The new students passed by the gymnasium and saw kids playing basketball and jumping rope."
+  },
+  {
+    "number": 151,
+    "word": "gesture",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈjes-chər, jesh-\\",
+    "definition": "a movement conveying an idea",
+    "sentence": "Her supportive gesture reassured him during the difficult conversation."
+  },
+  {
+    "number": 152,
+    "word": "accomplish",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ə-ˈkäm-plish\\",
+    "definition": "to achieve a result through effort",
+    "sentence": "There are several different ways to accomplish the same task."
+  },
+  {
+    "number": 153,
+    "word": "sorrow",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈsär-(ˌ)ō, ˈsȯr-, ˈsär-ō\\",
+    "definition": "deep sadness or distress about a loss",
+    "sentence": "A deep sense of sorrow washed over her after hearing the news."
+  },
+  {
+    "number": 154,
+    "word": "rivet",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˈri-vət, ˈri-ˌvət\\",
+    "definition": "to strongly attract someone's focus",
+    "sentence": "Apple Inc. knows how to rivet the world’s attention by constantly releasing cutting-edge technology."
+  },
+
+  {
+    "number": 155,
+    "word": "haddock",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈha-dək, ˈha-dək\\",
+    "definition": "a north Atlantic fish of the cod family",
+    "sentence": "The flaky, delicious haddock was a highlight of our seaside seafood dinner."
+  },
+  {
+    "number": 156,
+    "word": "jumbo",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˈjəm-(ˌ)bō\\",
+    "definition": "a very large example of its type",
+    "sentence": "To find a jumbo rabbit, one can go to the Netherlands where some rabbits are six feet long."
+  },
+  {
+    "number": 157,
+    "word": "chimpanzee",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˌchim-pan-ˈzē, (ˌ)chim-pan-ˈzē\\",
+    "definition": "an African ape smaller than a gorilla",
+    "sentence": "At the zoo, he witnessed a chimpanzee communicate through sign language with her handler."
+  },
+  {
+    "number": 158,
+    "word": "grist",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈgrist\\",
+    "definition": "wheat prepared for making flour",
+    "sentence": "A mill was built in the area in order to take grist from the fields and pulverize it into flour for baking."
+  },
+  {
+    "number": 159,
+    "word": "conduction",
+    "part_of_speech": "noun",
+    "pronunciation": "\\kən-ˈdək-shən\\",
+    "definition": "sound waves traveling through a material",
+    "sentence": "The conduction of sound through the air is what allows us to hear all of the noise around us, since we wouldn’t hear anything if the sound didn’t travel to our ears from its source."
+  },
+  {
+    "number": 160,
+    "word": "pox",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈpäks\\",
+    "definition": "a viral infection causing skin lesions",
+    "sentence": "The measles outbreak was a frightening example of the pox."
+  },
+  {
+    "number": 161,
+    "word": "teethe",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˈtēth\\",
+    "definition": "to develop and erupt through the gums",
+    "sentence": "The baby’s gums were visibly swollen as he began to teethe."
+  },
+  {
+    "number": 162,
+    "word": "sweltering",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˈswel-t(ə-)riŋ\\",
+    "definition": "extremely hot and humid weather",
+    "sentence": "Working under the sweltering sun, the field hands were pouring sweat as they struggled to stay cool."
+  },
+  {
+    "number": 163,
+    "word": "courageous",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\kə-ˈrā-jəs\\",
+    "definition": "showing bravery and strength",
+    "sentence": "She was a courageous woman who wasn't afraid to support unpopular causes."
+  },
+
+  {
+    "number": 164,
+    "word": "transcribe",
+    "part_of_speech": "verb",
+    "pronunciation": "\\tran(t)s-ˈkrīb\\",
+    "definition": "to convert communication into a different format",
+    "sentence": "The medical transcriptionist will transcribe the doctor’s notes by typing them into the computer."
+  },
+  {
+    "number": 165,
+    "word": "batik",
+    "part_of_speech": "noun",
+    "pronunciation": "\\bə-ˈtēk\\",
+    "definition": "an Indonesian technique for hand-printing fabrics",
+    "sentence": "The Swiss produced imitation batik in the early 1940's."
+  },
+  {
+    "number": 166,
+    "word": "acrostic",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ə-ˈkrȯs-tik\\",
+    "definition": "a poem where initial letters form a word",
+    "sentence": "An acrostic poem was lined up so that the first letters gave a cryptic message to readers."
+  },
+  {
+    "number": 167,
+    "word": "beret",
+    "part_of_speech": "noun",
+    "pronunciation": "\\bə-ˈrā\\",
+    "definition": "a brimless cap worn on the head",
+    "sentence": "The green beret is a symbol of commitment and sacrifice to the brave men of the U.S. Army Special Forces."
+  },
+  {
+    "number": 168,
+    "word": "overeat",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˌō-və-ˈrēt\\",
+    "definition": "to consume food in excessive quantities",
+    "sentence": "The children never overeat at the dinner table, but love cakes and candy afterward."
+  },
+  {
+    "number": 169,
+    "word": "restorative",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ri-ˈstȯr-ə-tiv\\",
+    "definition": "returning something to its original condition",
+    "sentence": "Since her garage had fallen into disrepair, Carla decided she needed to do some restorative work."
+  },
+  {
+    "number": 170,
+    "word": "corduroy",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈkȯr-də-ˌrȯi\\",
+    "definition": "a durable fabric with raised ridges",
+    "sentence": "Corduroy material is too heavy to wear in the summer."
+  },
+  {
+    "number": 171,
+    "word": "deft",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˈdeft\\",
+    "definition": "showing expertise and ingenuity",
+    "sentence": "Because Jake is a deft electrician, it did not take him long to rewire the electrical outlets."
+  },
+  {
+    "number": 172,
+    "word": "anode",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈa-ˌnōd\\",
+    "definition": "the electrode where electrons are gained",
+    "sentence": "The chemical reaction occurred at the anode of the battery."
+  },
+  {
+    "number": 173,
+    "word": "condor",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈkän-dər\\",
+    "definition": "a large black bird from South America",
+    "sentence": "Thalia dreamed she was flying on a condor after her visit to the zoo."
+  },
+  {
+    "number": 174,
+    "word": "killjoy",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈkil-ˌjȯi\\",
+    "definition": "someone who ruins enjoyment for others",
+    "sentence": "Our next door neighbor is a killjoy who calls the police anytime we have a party."
+  },
+  {
+    "number": 175,
+    "word": "fir",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈfər\\",
+    "definition": "a north evergreen tree with flat leaves and cones",
+    "sentence": "The majestic fir stood tall against the winter sky."
+  },
+  {
+    "number": 176,
+    "word": "increment",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈiŋ-krə-mənt\\",
+    "definition": "a quantity by which something grows larger",
+    "sentence": "Lately the annual pay raise has been in increments of two thousand dollars."
+  },
+  {
+    "number": 177,
+    "word": "tattoo",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ta-ˈtü\\",
+    "definition": "a design made permanently on skin",
+    "sentence": "The intricate tattoo depicted a soaring eagle, a lasting symbol of freedom."
+  },
+  {
+    "number": 178,
+    "word": "folkmoot",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈfōk-ˌmüt\\",
+    "definition": "a local gathering of community members",
+    "sentence": "The folkmoot provided a vital space for villagers to discuss important issues."
+  },
+  {
+    "number": 179,
+    "word": "anagram",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈa-nə-ˌgram\\",
+    "definition": "a word formed by rearranging letters of another",
+    "sentence": "The scrambled letters formed a clever anagram revealing a hidden word."
+  },
+  {
+    "number": 180,
+    "word": "bloodhound",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈbləd-ˌhau̇nd\\",
+    "definition": "a dog breed with keen sense of smell",
+    "sentence": "The bloodhound sniffed the ground until it rescued the child."
+  },
+  {
+    "number": 181,
+    "word": "innovate",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˈi-nə-ˌvāt\\",
+    "definition": "to create or introduce something new",
+    "sentence": "The plan to innovate the mall would bring many new jobs to the community."
+  },
+  {
+    "number": 182,
+    "word": "amulet",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈam-yə-lət\\",
+    "definition": "a charm worn for protection",
+    "sentence": "As the amulet was ripped from his neck, the lightning struck in the distance."
+  },
+  {
+    "number": 183,
+    "word": "incubator",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈin-kyə-ˌbā-tər\\",
+    "definition": "a device controlling temperature and air for infants",
+    "sentence": "After birth, the infant was placed in an incubator so her temperature could be regulated."
+  },
+  {
+    "number": 184,
+    "word": "overdo",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˌō-vər-ˈdü\\",
+    "definition": "to do something to an excessive degree",
+    "sentence": "If you overdo it in the gym, your muscles will be extremely sore the next day."
+  },
+  {
+    "number": 185,
+    "word": "navigable",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˈna-vi-gə-bəl\\",
+    "definition": "easily steered or directed",
+    "sentence": "The only navigable boat the teenager was legally permitted to drive was a small fishing boat."
+  },
+  {
+    "number": 186,
+    "word": "unearth",
+    "part_of_speech": "verb",
+    "pronunciation": "\\ˌən-ˈərth\\",
+    "definition": "to reveal something hidden or buried",
+    "sentence": "Scientists were able to unearth several fossils from the riverbed."
+  },
+  {
+    "number": 187,
+    "word": "enrage",
+    "part_of_speech": "verb",
+    "pronunciation": "\\in-ˈrāj\\",
+    "definition": "to make someone very angry",
+    "sentence": "Plans to build a new baseball park may enrage nearby homeowners due to traffic concerns."
+  },
+  {
+    "number": 188,
+    "word": "alleyway",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈa-lē-ˌwā\\",
+    "definition": "a narrow passage between buildings",
+    "sentence": "We walked through the empty alleyway late at night."
+  },
+  {
+    "number": 189,
+    "word": "lobbyist",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈlä-bē-ist\\",
+    "definition": "someone who influences government decisions",
+    "sentence": "Calvin might become a lobbyist for investigating dinosaurs someday."
+  },
+  {
+    "number": 190,
+    "word": "oath",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈōth\\",
+    "definition": "a serious pledge invoking a higher power",
+    "sentence": "Taking an oath before the judge showed his commitment to the truth."
+  },
+  {
+    "number": 191,
+    "word": "grange",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈgrānj\\",
+    "definition": "a farm’s main house or dwelling",
+    "sentence": "A white picket fence surrounded the grange, setting it apart from other farmhouses."
+  },
+  {
+    "number": 192,
+    "word": "fauna",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈfȯ-nə\\",
+    "definition": "animals living in a particular region",
+    "sentence": "Forest logging has led to the destruction of habitats of the local fauna."
+  },
+  {
+    "number": 193,
+    "word": "burlap",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈbər-ˌlap\\",
+    "definition": "a rough fabric for bags and coverings",
+    "sentence": "Because burlap is coarse and resists condensation, it is used to make good shipping sacks."
+  },
+  {
+    "number": 194,
+    "word": "spry",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˈsprī\\",
+    "definition": "full of vigor and lively movement",
+    "sentence": "Can you believe my spry 90-year-old grandmother wants to jump out of an airplane?"
+  },
+  {
+    "number": 195,
+    "word": "moue",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈmü\\",
+    "definition": "a brief expression of distaste or discomfort",
+    "sentence": "Her little moue suggested she was contemplating a difficult decision."
+  },
+  {
+    "number": 196,
+    "word": "brochure",
+    "part_of_speech": "noun",
+    "pronunciation": "\\brō-ˈshu̇r\\",
+    "definition": "a printed document informing or promoting something",
+    "sentence": "A brochure at the visitor center informed tourists about local activities."
+  },
+  {
+    "number": 197,
+    "word": "freckle",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈfre-kəl\\",
+    "definition": "small brown spots on skin from increased pigment",
+    "sentence": "The freckles on her nose became more noticeable after the summer."
+  },
+  {
+    "number": 198,
+    "word": "astral",
+    "part_of_speech": "adjective",
+    "pronunciation": "\\ˈa-strəl\\",
+    "definition": "relating to celestial bodies",
+    "sentence": "Students charted astral movements for the next month."
+  },
+  {
+    "number": 199,
+    "word": "confidant",
+    "part_of_speech": "noun",
+    "pronunciation": "\\ˈkän-fə-ˌdänt\\",
+    "definition": "someone you trust with private information",
+    "sentence": "Because my husband is my confidant, I can trust him with anything."
+  },
+  {
+    "number": 200,
+    "word": "debris",
+    "part_of_speech": "noun",
+    "pronunciation": "\\də-ˈbrē\\",
+    "definition": "the scattered remains of something damaged",
+    "sentence": "The storm left debris scattered across the devastated landscape."
+  }
+]
