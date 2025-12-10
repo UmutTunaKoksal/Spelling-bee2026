@@ -42,7 +42,7 @@ export default function TestPage({ params }: TestPageProps) {
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <div>
               <h1 className="text-4xl font-bold text-gray-800 mb-2">
-                Spelling Test - Page {pageNumber}
+                Spelling bee - Page {pageNumber}
               </h1>
               <p className="text-gray-600">
                 Click on any card to hear the word and type your answer
