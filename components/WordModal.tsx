@@ -17,7 +17,7 @@ interface WordModalProps {
   word: Word;
   open: boolean;
   onClose: () => void;
-  onNext?: () => void;
+  onNext: () => void;
 }
 
 export function WordModal({ word, open, onClose, onNext }: WordModalProps) {
@@ -56,9 +56,8 @@ export function WordModal({ word, open, onClose, onNext }: WordModalProps) {
         }, 500);
       } else {
         setTimeout(() => {
-          setAnswer('');
-          setHasSubmitted(false);
-        }, 800);
+          handleNext();
+        }, 1200);
       }
     }
   };
@@ -68,9 +67,7 @@ export function WordModal({ word, open, onClose, onNext }: WordModalProps) {
     setHasSubmitted(false);
     setShowDescription(false);
     setLastResult(null);
-    if (onNext) {
-      onNext();
-    }
+    onNext();
   };
 
   const handleClose = () => {
@@ -171,12 +168,8 @@ export function WordModal({ word, open, onClose, onNext }: WordModalProps) {
               value={answer}
               onChange={(e) => setAnswer(e.target.value)}
               onKeyDown={(e) => {
-                if (e.key === 'Enter') {
-                  if (!isAnswered && !hasSubmitted) {
-                    handleSubmit();
-                  } else if (autoMode && (hasSubmitted || isAnswered)) {
-                    handleNext();
-                  }
+                if (e.key === 'Enter' && !isAnswered && !hasSubmitted) {
+                  handleSubmit();
                 }
               }}
               placeholder="Enter spelling here..."
@@ -186,50 +179,22 @@ export function WordModal({ word, open, onClose, onNext }: WordModalProps) {
             />
           </div>
 
-          {!autoMode ? (
-            <div className="flex gap-3">
-              <Button
-                onClick={handleSubmit}
-                disabled={!answer.trim() || isAnswered}
-                className="flex-1 bg-green-600 hover:bg-green-700"
-              >
-                {isAnswered ? 'Submitted' : 'Submit'}
-              </Button>
-              <Button
-                onClick={handleClose}
-                variant="outline"
-                className="flex-1"
-              >
-                Close
-              </Button>
-            </div>
-          ) : (
-            <div className="flex gap-3">
-              {!hasSubmitted && !isAnswered ? (
-                <Button
-                  onClick={handleSubmit}
-                  disabled={!answer.trim()}
-                  className="flex-1 bg-green-600 hover:bg-green-700"
-                >
-                  Submit
-                </Button>
-              ) : (
-                <Button
-                  onClick={handleNext}
-                  className="flex-1 bg-blue-600 hover:bg-blue-700"
-                >
-                  Next Word
-                </Button>
-              )}
-              <Button
-                onClick={handleClose}
-                variant="outline"
-                className="flex-1"
-              >
-                Close
-              </Button>
-            </div>
-          )}
+          <div className="flex gap-3">
+            <Button
+              onClick={handleSubmit}
+              disabled={!answer.trim() || isAnswered || hasSubmitted}
+              className="flex-1 bg-green-600 hover:bg-green-700"
+            >
+              {hasSubmitted ? 'Loading next...' : isAnswered ? 'Submitted' : 'Submit'}
+            </Button>
+            <Button
+              onClick={handleClose}
+              variant="outline"
+              className="flex-1"
+            >
+              Close
+            </Button>
+          </div>
 
           {hasSubmitted && !autoMode && (
             <p className="text-center text-sm text-green-600 font-medium">
