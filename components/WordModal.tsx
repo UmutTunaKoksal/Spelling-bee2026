@@ -30,13 +30,39 @@ export function WordModal({ word, open, onClose, onNext }: WordModalProps) {
   const status = getAnswerStatus(word.number);
   const isAnswered = status !== 'unanswered';
 
-  const handleSpeak = () => {
-    if ('speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(word.word);
-      utterance.rate = 0.8;
-      utterance.pitch = 1;
-      window.speechSynthesis.speak(utterance);
+  const handleSpeak = async () => {
+    try {
+      const response = await fetch(
+        `${process.env.NEXT_PUBLIC_SUPABASE_URL}/functions/v1/get-pronunciation`,
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY}`,
+          },
+          body: JSON.stringify({ word: word.word }),
+        }
+      );
+
+      const data = await response.json();
+      if (data.audioUrl) {
+        const audio = new Audio(data.audioUrl);
+        audio.play().catch(() => {
+          if ('speechSynthesis' in window) {
+            window.speechSynthesis.cancel();
+            const utterance = new SpeechSynthesisUtterance(word.word);
+            utterance.rate = 0.8;
+            window.speechSynthesis.speak(utterance);
+          }
+        });
+      }
+    } catch {
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance(word.word);
+        utterance.rate = 0.8;
+        window.speechSynthesis.speak(utterance);
+      }
     }
   };
 
@@ -90,7 +116,7 @@ export function WordModal({ word, open, onClose, onNext }: WordModalProps) {
         <div className="space-y-6 py-4">
           <div className="flex justify-center">
             <Button
-              onClick={handleSpeak}
+              onClick={() => handleSpeak()}
               size="lg"
               variant="outline"
               className="h-20 w-20 rounded-full hover:bg-blue-50"
