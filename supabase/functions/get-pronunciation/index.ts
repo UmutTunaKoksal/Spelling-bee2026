@@ -17,32 +17,13 @@ Deno.serve(async (req: Request) => {
   try {
     const { word } = await req.json();
 
-    const wiktionaryUrl = `https://en.wiktionary.org/api/rest_v1/page/html/${encodeURIComponent(word)}`;
-    const wiktionaryResponse = await fetch(wiktionaryUrl);
+    const audioUrl = `https://api.dictionaryapi.dev/media/pronunciations/en/${word}.mp3`;
 
-    if (wiktionaryResponse.ok) {
-      const html = await wiktionaryResponse.text();
-      const audioMatch = html.match(/href="(\/\/upload\.wikimedia\.org\/wikipedia\/commons\/[^"]*\.(?:mp3|ogg|opus))"/);  
-      if (audioMatch && audioMatch[1]) {
-        const audioUrl = "https:" + audioMatch[1];
-        return new Response(
-          JSON.stringify({ audioUrl }),
-          {
-            headers: {
-              ...corsHeaders,
-              "Content-Type": "application/json",
-            },
-          }
-        );
-      }
-    }
+    const checkResponse = await fetch(audioUrl, { method: "HEAD" });
 
-    const dictionaryUrl = `https://api.dictionaryapi.dev/media/pronunciations/en/${word}.mp3`;
-    const checkDictResponse = await fetch(dictionaryUrl, { method: "HEAD" });
-
-    if (checkDictResponse.ok) {
+    if (checkResponse.ok) {
       return new Response(
-        JSON.stringify({ audioUrl: dictionaryUrl }),
+        JSON.stringify({ audioUrl }),
         {
           headers: {
             ...corsHeaders,
@@ -52,9 +33,9 @@ Deno.serve(async (req: Request) => {
       );
     }
 
-    const merriam = `https://www.merriam-webster.com/media/audio/prons/en/us/mp3/${word[0]}/${word}.mp3`;
+    const fallbackUrl = `https://www.merriam-webster.com/media/audio/prons/en/us/mp3/${word[0]}/${word}.mp3`;
     return new Response(
-      JSON.stringify({ audioUrl: merriam }),
+      JSON.stringify({ audioUrl: fallbackUrl }),
       {
         headers: {
           ...corsHeaders,
