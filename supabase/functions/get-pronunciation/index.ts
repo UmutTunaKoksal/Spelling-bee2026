@@ -18,7 +18,6 @@ Deno.serve(async (req: Request) => {
     const { word } = await req.json();
 
     const audioUrl = `https://api.dictionaryapi.dev/media/pronunciations/en/${word}.mp3`;
-
     const checkResponse = await fetch(audioUrl, { method: "HEAD" });
 
     if (checkResponse.ok) {
@@ -33,9 +32,9 @@ Deno.serve(async (req: Request) => {
       );
     }
 
-    const fallbackUrl = `https://www.merriam-webster.com/media/audio/prons/en/us/mp3/${word[0]}/${word}.mp3`;
+    const googleUrl = `https://www.google.com/speech-api/v2/synthesize?text=${encodeURIComponent(word)}&lang=en-US&client=tw-ob`;
     return new Response(
-      JSON.stringify({ audioUrl: fallbackUrl }),
+      JSON.stringify({ audioUrl: googleUrl }),
       {
         headers: {
           ...corsHeaders,

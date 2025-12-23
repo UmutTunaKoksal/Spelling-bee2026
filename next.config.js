@@ -5,6 +5,12 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: { unoptimized: true },
+  webpack: (config) => {
+    config.watchOptions = {
+      ignored: '**/supabase/**',
+    };
+    return config;
+  },
 };
 
 module.exports = nextConfig;
