@@ -17,7 +17,7 @@ interface WordModalProps {
   word: Word;
   open: boolean;
   onClose: () => void;
-  onNext: () => void;
+  onNext?: () => void;
 }
 
 export function WordModal({ word, open, onClose, onNext }: WordModalProps) {
@@ -30,39 +30,13 @@ export function WordModal({ word, open, onClose, onNext }: WordModalProps) {
   const status = getAnswerStatus(word.number);
   const isAnswered = status !== 'unanswered';
 
-  const handleSpeak = async () => {
-    try {
-      const response = await fetch(
-        `${process.env.NEXT_PUBLIC_SUPABASE_URL}/functions/v1/get-pronunciation`,
-        {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY}`,
-          },
-          body: JSON.stringify({ word: word.word }),
-        }
-      );
-
-      const data = await response.json();
-      if (data.audioUrl) {
-        const audio = new Audio(data.audioUrl);
-        audio.play().catch(() => {
-          if ('speechSynthesis' in window) {
-            window.speechSynthesis.cancel();
-            const utterance = new SpeechSynthesisUtterance(word.word);
-            utterance.rate = 0.8;
-            window.speechSynthesis.speak(utterance);
-          }
-        });
-      }
-    } catch {
-      if ('speechSynthesis' in window) {
-        window.speechSynthesis.cancel();
-        const utterance = new SpeechSynthesisUtterance(word.word);
-        utterance.rate = 0.8;
-        window.speechSynthesis.speak(utterance);
-      }
+  const handleSpeak = () => {
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(word.word);
+      utterance.rate = 0.8;
+      utterance.pitch = 1;
+      window.speechSynthesis.speak(utterance);
     }
   };
 
@@ -82,8 +56,9 @@ export function WordModal({ word, open, onClose, onNext }: WordModalProps) {
         }, 500);
       } else {
         setTimeout(() => {
-          handleNext();
-        }, 1200);
+          setAnswer('');
+          setHasSubmitted(false);
+        }, 800);
       }
     }
   };
@@ -93,7 +68,9 @@ export function WordModal({ word, open, onClose, onNext }: WordModalProps) {
     setHasSubmitted(false);
     setShowDescription(false);
     setLastResult(null);
-    onNext();
+    if (onNext) {
+      onNext();
+    }
   };
 
   const handleClose = () => {
@@ -116,7 +93,7 @@ export function WordModal({ word, open, onClose, onNext }: WordModalProps) {
         <div className="space-y-6 py-4">
           <div className="flex justify-center">
             <Button
-              onClick={() => handleSpeak()}
+              onClick={handleSpeak}
               size="lg"
               variant="outline"
               className="h-20 w-20 rounded-full hover:bg-blue-50"
@@ -194,8 +171,12 @@ export function WordModal({ word, open, onClose, onNext }: WordModalProps) {
               value={answer}
               onChange={(e) => setAnswer(e.target.value)}
               onKeyDown={(e) => {
-                if (e.key === 'Enter' && !isAnswered && !hasSubmitted) {
-                  handleSubmit();
+                if (e.key === 'Enter') {
+                  if (!isAnswered && !hasSubmitted) {
+                    handleSubmit();
+                  } else if (autoMode && (hasSubmitted || isAnswered)) {
+                    handleNext();
+                  }
                 }
               }}
               placeholder="Enter spelling here..."
@@ -205,22 +186,50 @@ export function WordModal({ word, open, onClose, onNext }: WordModalProps) {
             />
           </div>
 
-          <div className="flex gap-3">
-            <Button
-              onClick={handleSubmit}
-              disabled={!answer.trim() || isAnswered || hasSubmitted}
-              className="flex-1 bg-green-600 hover:bg-green-700"
-            >
-              {hasSubmitted ? 'Loading next...' : isAnswered ? 'Submitted' : 'Submit'}
-            </Button>
-            <Button
-              onClick={handleClose}
-              variant="outline"
-              className="flex-1"
-            >
-              Close
-            </Button>
-          </div>
+          {!autoMode ? (
+            <div className="flex gap-3">
+              <Button
+                onClick={handleSubmit}
+                disabled={!answer.trim() || isAnswered}
+                className="flex-1 bg-green-600 hover:bg-green-700"
+              >
+                {isAnswered ? 'Submitted' : 'Submit'}
+              </Button>
+              <Button
+                onClick={handleClose}
+                variant="outline"
+                className="flex-1"
+              >
+                Close
+              </Button>
+            </div>
+          ) : (
+            <div className="flex gap-3">
+              {!hasSubmitted && !isAnswered ? (
+                <Button
+                  onClick={handleSubmit}
+                  disabled={!answer.trim()}
+                  className="flex-1 bg-green-600 hover:bg-green-700"
+                >
+                  Submit
+                </Button>
+              ) : (
+                <Button
+                  onClick={handleNext}
+                  className="flex-1 bg-blue-600 hover:bg-blue-700"
+                >
+                  Next Word
+                </Button>
+              )}
+              <Button
+                onClick={handleClose}
+                variant="outline"
+                className="flex-1"
+              >
+                Close
+              </Button>
+            </div>
+          )}
 
           {hasSubmitted && !autoMode && (
             <p className="text-center text-sm text-green-600 font-medium">
