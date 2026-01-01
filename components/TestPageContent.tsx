@@ -42,8 +42,8 @@ export function TestPageContent({ words }: TestPageContentProps) {
             onCheckedChange={setAutoMode}
           />
           <Label htmlFor="auto-mode" className="cursor-pointer">
-            <div className="font-semibold">Auto Mode</div>
-            <div className="text-sm text-gray-600">Keep modal open after submitting</div>
+            <div className="font-semibold">Auto-Advance Mode</div>
+            <div className="text-sm text-gray-600">Automatically advance to next word after submitting</div>
           </Label>
         </div>
       </Card>

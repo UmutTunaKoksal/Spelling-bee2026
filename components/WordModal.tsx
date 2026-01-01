@@ -56,9 +56,8 @@ export function WordModal({ word, open, onClose, onNext }: WordModalProps) {
         }, 500);
       } else {
         setTimeout(() => {
-          setAnswer('');
-          setHasSubmitted(false);
-        }, 800);
+          handleNext();
+        }, 1500);
       }
     }
   };
