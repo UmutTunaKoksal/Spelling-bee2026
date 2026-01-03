@@ -215,9 +215,9 @@ export function WordModal({ word, open, onClose, onNext }: WordModalProps) {
               ) : (
                 <Button
                   onClick={handleNext}
-                  className="flex-1 bg-blue-600 hover:bg-blue-700"
+                  className="flex-1 bg-green-600 hover:bg-green-700"
                 >
-                  Next Word
+                  Loading Answer...
                 </Button>
               )}
               <Button
