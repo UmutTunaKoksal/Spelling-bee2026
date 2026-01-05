@@ -30,7 +30,7 @@ export default function ResultsPage() {
   const incorrectWords = getIncorrectWords();
 
   const handleRetake = () => {
-    if (confirm('Are you sure you want to retake the bee? This will clear all your answers.')) {
+    if (confirm('Are you sure you want to retake the spelling bee? This will clear all your answers.')) {
       resetTest();
       router.push('/page/1');
     }
