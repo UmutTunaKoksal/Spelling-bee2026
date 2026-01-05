@@ -30,9 +30,9 @@ export default function ResultsPage() {
   const incorrectWords = getIncorrectWords();
 
   const handleRetake = () => {
-    if (confirm('Are you sure you want to retake the test? This will clear all your answers.')) {
+    if (confirm('Are you sure you want to retake the bee? This will clear all your answers.')) {
       resetTest();
-      router.push('/test/1');
+      router.push('/page/1');
     }
   };
 
@@ -50,10 +50,10 @@ export default function ResultsPage() {
           </Link>
 
           <h1 className="text-4xl font-bold text-gray-800 mb-2">
-            Test Results
+            Bee Results
           </h1>
           <p className="text-gray-600">
-            Here's how you performed on the spelling test
+            Here's how you performed on the spelling bee
           </p>
         </div>
 
@@ -138,11 +138,11 @@ export default function ResultsPage() {
         {totalAnswered === 0 && (
           <Card className="p-8 bg-white text-center">
             <p className="text-gray-600 mb-4">
-              You haven't answered any words yet. Start the test to see your results!
+              You haven't answered any words yet. Start the bee to see your results!
             </p>
-            <Link href="/test/1">
+            <Link href="/page/1">
               <Button className="bg-blue-600 hover:bg-blue-700">
-                Start Test
+                Start Bee
               </Button>
             </Link>
           </Card>
@@ -155,11 +155,11 @@ export default function ResultsPage() {
             size="lg"
           >
             <RotateCcw className="h-5 w-5" />
-            Retake Test
+            Retake Bee
           </Button>
-          <Link href="/test/1">
+          <Link href="/page/1">
             <Button variant="outline" size="lg">
-              Continue Test
+              Continue Bee
             </Button>
           </Link>
         </div>

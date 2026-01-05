@@ -64,7 +64,7 @@ export const useSpellingStore = create<SpellingState>()(
       setAutoMode: (enabled: boolean) => set({ autoMode: enabled }),
     }),
     {
-      name: 'spelling-test-storage',
+      name: 'spelling-bee-storage',
     }
   )
 );

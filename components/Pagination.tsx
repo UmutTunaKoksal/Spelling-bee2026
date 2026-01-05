@@ -25,7 +25,7 @@ export function Pagination({ currentPage, totalPages }: PaginationProps) {
 
     for (let i = startPage; i <= endPage; i++) {
       pages.push(
-        <Link key={i} href={`/test/${i}`}>
+        <Link key={i} href={`/page/${i}`}>
           <Button
             variant={i === currentPage ? 'default' : 'outline'}
             size="sm"
@@ -47,7 +47,7 @@ export function Pagination({ currentPage, totalPages }: PaginationProps) {
   return (
     <div className="flex items-center justify-center gap-2 flex-wrap">
       <Link
-        href={currentPage > 1 ? `/test/${currentPage - 1}` : '#'}
+        href={currentPage > 1 ? `/page/${currentPage - 1}` : '#'}
         className={currentPage === 1 ? 'pointer-events-none' : ''}
       >
         <Button
@@ -64,7 +64,7 @@ export function Pagination({ currentPage, totalPages }: PaginationProps) {
       {renderPageNumbers()}
 
       <Link
-        href={currentPage < totalPages ? `/test/${currentPage + 1}` : '#'}
+        href={currentPage < totalPages ? `/page/${currentPage + 1}` : '#'}
         className={currentPage === totalPages ? 'pointer-events-none' : ''}
       >
         <Button

@@ -66,12 +66,12 @@ export default function Home() {
         </div>
 
         <div className="text-center space-y-4">
-          <Link href="/test/1">
+          <Link href="/page/1">
             <Button
               size="lg"
               className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-6 text-xl font-semibold shadow-lg hover:shadow-xl transition-all"
             >
-              Start Spelling Test
+              Start Spelling Bee
             </Button>
           </Link>
 
