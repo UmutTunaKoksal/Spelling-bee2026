@@ -50,7 +50,7 @@ export default function ResultsPage() {
           </Link>
 
           <h1 className="text-4xl font-bold text-gray-800 mb-2">
-            Bee Results
+            Spelling Bee Results
           </h1>
           <p className="text-gray-600">
             Here's how you performed on the spelling bee
