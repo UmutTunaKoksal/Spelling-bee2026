@@ -159,7 +159,7 @@ export default function ResultsPage() {
           </Button>
           <Link href="/page/1">
             <Button variant="outline" size="lg">
-              Continue Bee
+              Continue Spelling Bee
             </Button>
           </Link>
         </div>
