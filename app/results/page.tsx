@@ -155,7 +155,7 @@ export default function ResultsPage() {
             size="lg"
           >
             <RotateCcw className="h-5 w-5" />
-            Retake Bee
+            Retake Spelling Bee
           </Button>
           <Link href="/page/1">
             <Button variant="outline" size="lg">
