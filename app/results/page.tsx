@@ -138,11 +138,11 @@ export default function ResultsPage() {
         {totalAnswered === 0 && (
           <Card className="p-8 bg-white text-center">
             <p className="text-gray-600 mb-4">
-              You haven't answered any words yet. Start the bee to see your results!
+              You haven't answered any words yet. Start the spelling bee to see your results!
             </p>
             <Link href="/page/1">
               <Button className="bg-blue-600 hover:bg-blue-700">
-                Start Bee
+                Start Spelling Bee
               </Button>
             </Link>
           </Card>
