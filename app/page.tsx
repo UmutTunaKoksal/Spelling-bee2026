@@ -14,7 +14,7 @@ export default function Home() {
             </div>
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-gray-800 mb-4">
-          2025 Canada Spelling Bee
+          2026 Canada Spelling Bee
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Practice spelling 200 words through fun, interactive cards. Click, listen, and spell your way to success!
