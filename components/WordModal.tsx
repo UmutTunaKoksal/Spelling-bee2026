@@ -155,7 +155,7 @@ export function WordModal({ word, open, onClose, onNext }: WordModalProps) {
                 </p>
               </div>
               <div className="text-xs text-gray-600">
-                <span className="font-medium">Part of Speech:</span> {word.part_of_speech || word.partOfSpeech}
+                <span className="font-medium">Part of Speech:</span> {word.part_of_speech}
               </div>
             </div>
           )}
