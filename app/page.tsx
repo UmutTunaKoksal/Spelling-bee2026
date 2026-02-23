@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
+import { WordSetSelector } from '@/components/WordSetSelector';
 import { BookOpen, Award, Brain, Sparkles } from 'lucide-react';
 
 export default function Home() {
@@ -65,16 +66,9 @@ export default function Home() {
           </Card>
         </div>
 
-        <div className="text-center space-y-4">
-          <Link href="/page/1">
-            <Button
-              size="lg"
-              className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-6 text-xl font-semibold shadow-lg hover:shadow-xl transition-all"
-            >
-              Start Spelling Bee
-            </Button>
-          </Link>
+        <WordSetSelector />
 
+        <div className="text-center space-y-4">
           <div>
             <Link href="/results">
               <Button variant="outline" size="lg" className="px-8">

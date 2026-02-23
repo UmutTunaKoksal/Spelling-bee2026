@@ -1,7 +1,8 @@
 export interface Word {
   number: number;
   word: string;
-  part_of_speech: string;
+  part_of_speech?: string;
+  partOfSpeech?: string;
   pronunciation: string;
   definition: string;
   sentence: string;
