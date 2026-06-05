@@ -4,11 +4,11 @@ import CSSBNData from '@/data/CSSB_bee_words_2026.json';
 
 export const WORD_SETS = {
   Canada_Super_Spelling_Bee_Qualifications: {
-    name: 'Canada_Super_Spelling_Bee_Qualifications (1-200)',
+    name: 'Canada Super Spelling Bee Qualifications (1-200)',
     data: CSSBQData as Word[],
   },
   Canada_National_Super_Spelling_Bee : {
-    name: 'Canada_National_Super_Spelling_Bee (1-450)',
+    name: 'Canada National Super Spelling Bee (1-450)',
     data: CSSBNData as Word[],
   },
 } as const;
