@@ -1,21 +1,21 @@
 import { Word } from '@/types/spelling';
-import CSSBQData from '@/data/spellig.json';
-import CSSBNData from '@/data/CSSB_bee_words_2026.json';
+import spelligData from '@/data/spellig.json';
+import spellingBeeWordsData from '@/data/spelling-bee-words.json';
 
 export const WORD_SETS = {
-  Canada_Super_Spelling_Bee_Qualifications: {
-    name: 'Canada Super Spelling Bee Qualifications (1-200)',
-    data: CSSBQData as Word[],
+  original: {
+    name: 'Original (1-79)',
+    data: spelligData as Word[],
   },
-  Canada_National_Super_Spelling_Bee : {
-    name: 'Canada National Super Spelling Bee (1-450)',
-    data: CSSBNData as Word[],
+  extended: {
+    name: 'Extended (80-100)',
+    data: spellingBeeWordsData as Word[],
   },
 } as const;
 
 export type WordSetKey = keyof typeof WORD_SETS;
 
-export const DEFAULT_WORD_SET: WordSetKey = 'Canada_Super_Spelling_Bee_Qualifications';
+export const DEFAULT_WORD_SET: WordSetKey = 'original';
 
 export const WORDS_PER_PAGE = 10;
 
