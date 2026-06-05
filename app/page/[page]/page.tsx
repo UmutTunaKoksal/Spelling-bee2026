@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { getWordsForPage, isValidPage, TOTAL_PAGES } from '@/lib/words';
+import { getWordsForPage, isValidPage, getTotalPages, DEFAULT_WORD_SET } from '@/lib/words';
 import { TestPageContent } from '@/components/TestPageContent';
 import { Pagination } from '@/components/Pagination';
 import { Button } from '@/components/ui/button';
@@ -13,7 +13,7 @@ interface TestPageProps {
 }
 
 export function generateStaticParams() {
-  const pages = Array.from({ length: TOTAL_PAGES }, (_, i) => ({
+  const pages = Array.from({ length: getTotalPages(DEFAULT_WORD_SET) }, (_, i) => ({
     page: String(i + 1),
   }));
   return pages;
@@ -22,11 +22,11 @@ export function generateStaticParams() {
 export default function TestPage({ params }: TestPageProps) {
   const pageNumber = parseInt(params.page, 10);
 
-  if (isNaN(pageNumber) || !isValidPage(pageNumber)) {
+  if (isNaN(pageNumber) || !isValidPage(pageNumber, DEFAULT_WORD_SET)) {
     notFound();
   }
 
-  const words = getWordsForPage(pageNumber);
+  const words = getWordsForPage(pageNumber, DEFAULT_WORD_SET);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 py-8 px-4">
@@ -59,7 +59,7 @@ export default function TestPage({ params }: TestPageProps) {
         <TestPageContent words={words} />
 
         <div className="bg-white rounded-lg shadow-md p-6">
-          <Pagination currentPage={pageNumber} totalPages={TOTAL_PAGES} />
+          <Pagination currentPage={pageNumber} totalPages={getTotalPages(DEFAULT_WORD_SET)} />
         </div>
       </div>
     </div>

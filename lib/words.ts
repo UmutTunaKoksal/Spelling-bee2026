@@ -1,17 +1,39 @@
 import { Word } from '@/types/spelling';
-import wordsData from '@/data/spellig.json';
+import CSSBQData from '@/data/spellig.json';
+import CSSBNData from '@/data/CSSB_bee_words_2026.json';
 
-export const allWords: Word[] = wordsData as Word[];
+export const WORD_SETS = {
+  Canada_Super_Spelling_Bee_Qualifications: {
+    name: 'Canada_Super_Spelling_Bee_Qualifications (1-200)',
+    data: CSSBQData as Word[],
+  },
+  Canada_National_Super_Spelling_Bee : {
+    name: 'Canada_National_Super_Spelling_Bee (1-450)',
+    data: CSSBNData as Word[],
+  },
+} as const;
+
+export type WordSetKey = keyof typeof WORD_SETS;
+
+export const DEFAULT_WORD_SET: WordSetKey = 'original;
 
 export const WORDS_PER_PAGE = 10;
-export const TOTAL_PAGES = Math.ceil(allWords.length / WORDS_PER_PAGE);
 
-export function getWordsForPage(page: number): Word[] {
-  const startIndex = (page - 1) * WORDS_PER_PAGE;
-  const endIndex = startIndex + WORDS_PER_PAGE;
-  return allWords.slice(startIndex, endIndex);
+export function getWordSet(setKey: WordSetKey): Word[] {
+  return WORD_SETS[setKey].data;
 }
 
-export function isValidPage(page: number): boolean {
-  return page >= 1 && page <= TOTAL_PAGES;
+export function getTotalPages(setKey: WordSetKey): number {
+  return Math.ceil(getWordSet(setKey).length / WORDS_PER_PAGE);
+}
+
+export function getWordsForPage(page: number, setKey: WordSetKey = DEFAULT_WORD_SET): Word[] {
+  const words = getWordSet(setKey);
+  const startIndex = (page - 1) * WORDS_PER_PAGE;
+  const endIndex = startIndex + WORDS_PER_PAGE;
+  return words.slice(startIndex, endIndex);
+}
+
+export function isValidPage(page: number, setKey: WordSetKey = DEFAULT_WORD_SET): boolean {
+  return page >= 1 && page <= getTotalPages(setKey);
 }
