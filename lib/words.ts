@@ -15,6 +15,7 @@ export const WORD_SETS = {
 
 export type WordSetKey = keyof typeof WORD_SETS;
 export const DEFAULT_WORD_SET: WordSetKey = 'Canada_Super_Spelling_Bee_Qualifications';
+export const DEFAULT_WORD_SET: WordSetKey = 'Canada_National_Super_Spelling_Bee';
 export const WORDS_PER_PAGE = 10;
 
 export function getWordSet(setKey: WordSetKey): Word[] {
