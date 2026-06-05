@@ -1,12 +1,10 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { WordAnswer } from '@/types/spelling';
-import { WordSetKey, DEFAULT_WORD_SET } from '@/lib/words';
 
 interface SpellingState {
   answers: Record<number, WordAnswer>;
   autoMode: boolean;
-  activeWordSet: WordSetKey;
   setAnswer: (wordNumber: number, word: string, studentAnswer: string) => void;
   getAnswerStatus: (wordNumber: number) => 'correct' | 'incorrect' | 'unanswered';
   resetTest: () => void;
@@ -14,7 +12,6 @@ interface SpellingState {
   getTotalIncorrect: () => number;
   getIncorrectWords: () => WordAnswer[];
   setAutoMode: (enabled: boolean) => void;
-  setActiveWordSet: (setKey: WordSetKey) => void;
 }
 
 export const useSpellingStore = create<SpellingState>()(
@@ -22,7 +19,6 @@ export const useSpellingStore = create<SpellingState>()(
     (set, get) => ({
       answers: {},
       autoMode: false,
-      activeWordSet: DEFAULT_WORD_SET,
 
       setAnswer: (wordNumber: number, word: string, studentAnswer: string) => {
         const trimmedAnswer = studentAnswer.trim().toLowerCase();
@@ -66,8 +62,6 @@ export const useSpellingStore = create<SpellingState>()(
       },
 
       setAutoMode: (enabled: boolean) => set({ autoMode: enabled }),
-
-      setActiveWordSet: (setKey: WordSetKey) => set({ activeWordSet: setKey, answers: {} }),
     }),
     {
       name: 'spelling-bee-storage',

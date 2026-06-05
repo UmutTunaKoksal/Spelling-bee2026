@@ -6,6 +6,8 @@ export interface Word {
   pronunciation: string;
   definition: string;
   sentence: string;
+  etymology?: string;
+  index?: number;
 }
 
 export interface WordAnswer {
