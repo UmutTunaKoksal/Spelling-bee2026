@@ -4,17 +4,19 @@ import CSSBNData from '@/data/CSSB_bee_words_2026.json';
 
 export const WORD_SETS = {
   Canada_Super_Spelling_Bee_Qualifications: {
-    name: 'Canada Super Spelling Bee Qualifications',
+    name: 'Canada Super Spelling Bee Qualifications (1-200)',
     data: CSSBQData as Word[],
   },
-  Canada_National_Super_Spelling_Bee: {
-    name: 'Canada National Super Spelling Bee',
+  Canada_National_Super_Spelling_Bee : {
+    name: 'Canada National Super Spelling Bee (1-450)',
     data: CSSBNData as Word[],
   },
 } as const;
 
 export type WordSetKey = keyof typeof WORD_SETS;
+
 export const DEFAULT_WORD_SET: WordSetKey = 'Canada_Super_Spelling_Bee_Qualifications';
+
 export const WORDS_PER_PAGE = 10;
 
 export function getWordSet(setKey: WordSetKey): Word[] {
